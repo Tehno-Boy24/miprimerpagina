@@ -143,6 +143,13 @@ Route::get('/', [
     'as' => 'index',
 ]);
 
+
+Route;;get('/techno_boy24', [
+
+    'uses' => 'FrontController@examen',
+    'as' => 'examen'
+]);
+
 Route::get('/vacantes', [
     'uses' => 'FrontController@jobs',
     'as' => 'jobs.all',
